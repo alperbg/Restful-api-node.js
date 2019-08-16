@@ -1,0 +1,26 @@
+{
+  "name": "restful-api-node",
+  "version": "1.0.0",
+  "description": "Restful Api With Node.js Express &amp; MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4ppe/Restful-api-node.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4ppe/Restful-api-node.js/issues"
+  },
+  "homepage": "https://github.com/4ppe/Restful-api-node.js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
