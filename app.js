@@ -4,14 +4,15 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 dotenv.config();
 
+// Import Routes
+const postRoute = require('./routes/posts');
+
+app.use('/posts', postRoute);
+
+
 // Routes
 app.get('/',(req,res) => {
     res.send('we are on home');
-    res.end();
-});
-
-app.get('/posts',(req,res) => {
-    res.send('we are on posts');
     res.end();
 });
 
